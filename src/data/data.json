@@ -1,0 +1,95 @@
+{
+    "items": [
+        {
+            "wordLineId": 1,
+            "text": "CORPORATE WEBSITES"
+        },
+        {
+            "wordLineId": 2,
+            "text": "E-COMMERCE SOLUTIONS"
+        },
+        {
+            "wordLineId": 3,
+            "text": "PERSONAL BLOGS"
+        },
+        {
+            "wordLineId": 4,
+            "text": "LANDING PAGES"
+        },
+
+        {
+            "wordLineId": 5,
+            "text": "PORTFOLIO WEBSITES"
+        },
+        {
+            "wordLineId": 6,
+            "text": "CONTENT MANAGEMENT SYSTEMS"
+        },
+        {
+            "wordLineId": 7,
+            "text": "CUSTOM WEB APPLICATIONS"
+        }
+
+    ],
+    "questionsElleft": [
+        {
+            "questionId": 1,
+            "text": "WHAT KIND OF WEBSITES DO YOU SPECIALIZE IN?",
+            "hiddenText": "I specialize in landing pages and elegant multi-page websites without a registration system.",
+            "upArrow": "ᨈ",
+            "downArrow": "ᨆ"
+        },
+        {
+            "questionId": 2,
+            "text": "HOW CAN I ORDER A WEBSITE FROM YOU?",
+            "hiddenText": "You can contact me using the contact information from the link above or by using the contacts at the top of the page",
+            "upArrow": "ᨈ",
+            "downArrow": "ᨆ"
+        },
+        {
+            "questionId": 3,
+            "text": "WHAT TECHNOLOGIES DO YOU USE FOR YOUR WEBSITES?",
+            "hiddenText": "What technologies do you use for your websites?",
+            "upArrow": "ᨈ",
+            "downArrow": "ᨆ"
+        },
+        {
+            "questionId": 4,
+            "text": "CAN I REQUEST TO IMPROVE AN EXISTING SITE?",
+            "hiddenText": "Yes, there is such a possibility",
+            "upArrow": "ᨈ",
+            "downArrow": "ᨆ"
+        }
+       
+    ],
+    "questionsElright": [
+        {
+            "questionId": 5,
+            "text": "HOW LONG DOES IT TAKE TO CREATE A WEBSITE?",
+            "hiddenText": "The time depends on the needs of your project, on average from 7 to 14 working days",
+            "upArrow": "ᨈ",
+            "downArrow": "ᨆ"
+        },
+        {
+            "questionId": 6,
+            "text": "CAN YOU MAKE CARDS FOR WILDBERRIES?",
+            "hiddenText": "No",
+            "upArrow": "ᨈ",
+            "downArrow": "ᨆ"
+        },
+        {
+            "questionId": 7,
+            "text": "CAN YOU CREATE A WEBSITE DESIGN?",
+            "hiddenText": "Yes, there is such an opportunity as an additional service",
+            "upArrow": "ᨈ",
+            "downArrow": "ᨆ"
+        },
+        {
+            "questionId": 8,
+            "text": "WHAT IF I DON'T LIKE THE RESULTING SITE?",
+            "hiddenText": "Do not worry, during the implementation of the site we will keep in touch and coordinate the details of the project",
+            "upArrow": "ᨈ",
+            "downArrow": "ᨆ"
+        }
+    ]
+}

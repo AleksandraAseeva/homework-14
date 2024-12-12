@@ -1,0 +1,87 @@
+.collage {
+  background: url("../images/collage1jpg.jpg") no-repeat center;
+  background-size: 1596px 512px;
+  width: 1596px;
+  height: 512px;
+  margin: auto;
+}
+
+@media (max-width: 1680px) {
+  .collage {
+    background-size: 1400px 450px;
+    width: 1400px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .collage {
+    background-size: 1280px 424px;
+    width: 1280px;
+    height: 424px;
+  }
+}
+
+@media (max-width: 1330px) {
+  .collage {
+    background-size: 1150px 424px;
+    width: 1150px;
+    /* height: 424px; */
+  }
+}
+
+@media (max-width: 1200px) {
+  .collage {
+    background-size: 1000px 400px;
+    width: 1000px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .collage {
+    background-size: 900px 390px;
+    width: 900px;
+    height: 390px;
+  }
+}
+
+@media (max-width: 950px) {
+  .collage {
+    background-size: 720px 370px;
+    width: 720px;
+    height: 370px;
+  }
+}
+
+@media (max-width: 760px) {
+  .collage {
+    background-size: 600px 300px;
+    width: 600px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  .collage {
+    background-size: 500px 260px;
+    width: 500px;
+    height: 260px;
+  }
+}
+
+@media (max-width: 540px) {
+  .collage {
+    background-size: 400px 230px;
+    width: 400px;
+    height: 230px;
+  }
+}
+
+@media (max-width: 391px) {
+  .collage {
+    background-size: 358px 223px;
+    width: 358px;
+    height: 223px;
+  }
+}

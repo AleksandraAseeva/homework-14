@@ -1,0 +1,155 @@
+.mainCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCont {
+  max-width: 1597px;
+}
+
+.titleQuestions {
+  margin-top: 5rem;
+}
+
+.titleQuestions p {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+  color: #797c86;
+}
+
+.titleQuestions h1 {
+  font-family: Manrope;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 79.23px;
+}
+
+.questions {
+  display: flex;
+  font-display: row;
+  margin-top: 6rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 1597px;
+}
+
+.leftQ,
+.rightQ {
+  display: flex;
+  flex-direction: column;
+  width: 798.5px;
+  max-height: 631px;
+}
+
+.leftQ p,
+.rightQ p {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+  max-width: 606px;
+}
+
+@media (max-width: 1680px) {
+  .flexCont {
+    max-width: 1400px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .flexCont {
+    max-width: 1280px;
+  }
+
+  .titleQuestions p {
+    font-size: 16px;
+    line-height: 21.86px;
+  }
+
+  .titleQuestions h1 {
+    font-size: 48px;
+    line-height: 65.57px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .flexCont {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .flexCont {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 960px) {
+  .flexCont {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 960px) {
+  .flexCont {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 760px) {
+  .flexCont {
+    max-width: 500px;
+  }
+
+  .titleQuestions p, .titleQuestions h1 {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .flexCont {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 391px) {
+  .questions {
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+
+  .titleQuestions {
+    margin-left: 1rem;
+  }
+
+  .titleQuestions p {
+    font-size: 14px;
+    line-height: 19.12px;
+  }
+
+  .titleQuestions h1 {
+    font-size: 28px;
+    line-height: 38.25px;
+  }
+
+  .leftQ,
+  .rightQ {
+    max-width: 358px;
+    max-height: 631px;
+  }
+
+  .leftQ p,
+  .rightQ p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .questions {
+    margin-top: 2rem;
+  }
+}

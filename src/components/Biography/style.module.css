@@ -1,0 +1,522 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Manrope:wght@200..800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.about {
+  display: flex;
+  padding: 12rem 10rem 8rem 10rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Manrope;
+}
+
+.about p {
+  font-size: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+  color: #797c86;
+}
+
+.about button {
+  height: 100%;
+}
+
+.about h1 {
+  font-family: Manrope;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 79.23px;
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.myPhoto {
+  background: url("../images/myPhoto.jpg") no-repeat center;
+  background-size: 783px 710px;
+  border-radius: 15px;
+  width: 783px;
+  height: 710px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  max-width: 783px;
+  max-height: 612px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.firstCont {
+  padding: 40px;
+  border-bottom: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.introduction h3 {
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40.98px;
+}
+
+.introStar {
+  background: url("../images/introStar.png") no-repeat center;
+  background-size: 39px 40px;
+  width: 39px;
+  height: 40px;
+}
+
+.firstCont p {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.secondCont {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.infoCont {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.email,
+.phone {
+  font-family: Manrope;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 341.5px;
+}
+
+.email h4,
+.phone h4 {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.email p,
+.phone p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #afb0b6;
+}
+
+.socialCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 1px solid rgb(73, 73, 73);
+  border-radius: 2rem;
+  gap: 10px;
+}
+
+.facebook,
+.twitter,
+.insta {
+  background-size: 20px 20px;
+  width: 48px;
+  height: 48px;
+  border-radius: 25px;
+}
+
+.facebook {
+  background: url("../images/facebook.png") no-repeat #1c1c21 center;
+}
+
+.twitter {
+  background: url("../images/twitter.png") no-repeat #1c1c21 center;
+}
+
+.insta {
+  background: url("../images/insta.png") no-repeat #1c1c21 center;
+}
+
+.buttonCont {
+  display: flex;
+  gap: 20px;
+}
+
+.buttonCont button {
+  width: 213.5px;
+  padding: 18px 34px 18px 34px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1840px) {
+  .myPhoto {
+    background: url("../images/myPhoto.jpg") no-repeat center;
+    background-size: 560px 610px;
+    border-radius: 30px;
+    width: 560px;
+    height: 620px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .about {
+    padding: 8.6rem 5rem 6rem 5rem;
+  }
+
+  .group {
+    gap: 20px;
+  }
+
+  .about p {
+    font-size: 16px;
+    line-height: 21.86px;
+  }
+
+  .about button {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+  }
+
+  .about h1 {
+    margin-top: 5px;
+    font-size: 48px;
+    line-height: 65.57px;
+  }
+
+  .intro {
+    max-width: 630px;
+    max-height: 519px;
+  }
+
+  .firstCont {
+    padding: 30px;
+    gap: 16px;
+  }
+
+  .introduction h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.78px;
+  }
+
+  .firstCont p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #afb0b6;
+  }
+
+  .secondCont {
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .myPhoto {
+    background: url("../images/myPhoto.jpg") no-repeat center;
+    background-size: 630px 585px;
+    border-radius: 15px;
+    width: 630px;
+    height: 585px;
+  }
+
+  .buttonCont button {
+    width: 174px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    border-radius: 8px;
+    height: 49px;
+    padding: 14px 24px 14px 24px;
+  }
+
+  .social {
+    padding: 8px;
+  }
+
+  .facebook,
+  .twitter,
+  .insta {
+    background-size: 16px 16px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .email p,
+  .phone p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .introStar {
+    background-size: 29px 30px;
+    width: 29px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .myPhoto {
+    background-size: 520px 520px;
+    width: 520px;
+    height: 520px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .myPhoto {
+    background-size: 450px 450px;
+    width: 450px;
+    height: 450px;
+  }
+
+  .intro {
+    max-width: 608px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .introduction h3 {
+    font-size: 19px;
+    line-height: 27.32px;
+  }
+
+  .introStar {
+    background-size: 23.4px 24px;
+    width: 23.4px;
+    height: 24px;
+  }
+
+  .firstCont {
+    padding: 20px;
+    gap: 12px;
+  }
+
+  .firstCont p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .group {
+    flex-direction: column;
+  }
+
+  .myPhoto {
+    background-size: 750px 650px;
+    width: 750px;
+    height: 650px;
+  }
+
+  .intro {
+    max-width: 750px;
+    max-height: 687px;
+    max-height: fit-content;
+  }
+}
+
+@media (max-width: 800px) {
+  .myPhoto {
+    background-size: 650px 650px;
+    width: 650px;
+  }
+
+  .intro {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 700px) {
+  .myPhoto {
+    background-size: 550px 550px;
+    width: 550px;
+    height: 550px;
+  }
+
+  .intro {
+    max-width: 550px;
+  }
+
+  .buttonCont button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    padding: 8.6rem 3rem 6rem 3rem;
+  }
+
+  .myPhoto {
+    background-size: 460px 460px;
+    width: 460px;
+    height: 460px;
+  }
+
+  .intro {
+    max-width: 460px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    padding: 8.6rem 1rem 6rem 1rem;
+  }
+
+  .myPhoto {
+    background-size: 420px 420px;
+    width: 420px;
+    height: 420px;
+  }
+
+  .intro {
+    max-width: 420px;
+  }
+
+  .socialCont {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .buttonCont {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .infoCont {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 391px) {
+  .about {
+    padding: 4.5rem 1rem 3.5rem 1rem;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .about p {
+    font-size: 14px;
+    line-height: 19.12px;
+  }
+
+  .about h1 {
+    margin-top: 0;
+    font-size: 28px;
+    line-height: 38.25px;
+    margin-bottom: 1rem;
+  }
+
+  .about button {
+    padding: 14px 20px 14px 20px;
+    gap: 10px;
+    border-radius: 8px;
+  }
+
+  .myPhoto {
+    /* background: url("../images/myPhoto.jpg") no-repeat center; */
+    background-size: 348px 360px;
+    border-radius: 15px;
+    width: 348px;
+    height: 360px;
+  }
+
+  .group {
+    flex-direction: column;
+  }
+
+  .intro {
+    max-width: 358px;
+    max-height: 687px;
+    max-height: fit-content;
+  }
+
+  .introduction {
+    gap: 4px;
+    padding: 0;
+  }
+
+  .introduction h3 {
+    font-size: 19px;
+    line-height: 27.32px;
+  }
+
+  .introStar {
+    background-size: 23.4px 24px;
+    width: 23.4px;
+    height: 24px;
+  }
+
+  .firstCont {
+    padding: 24px;
+    gap: 12px;
+  }
+
+  .firstCont p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .infoCont {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .email h4,
+  .phone h4 {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .email p,
+  .phone p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .social {
+    max-width: 140px;
+  }
+
+  .socialCont {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .buttonCont {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  /* .buttonCont button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  } */
+}
